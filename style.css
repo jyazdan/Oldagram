@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+}
+
+.header-container {
+  border-bottom: #C6C6C6 solid 1px;
+  height: 67px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-top: 18px;
+  margin-left: 10px;
+  width: 127px;
+  height: 33px;
+
+}
+
+.profile-image {
+  width: 34px;
+  height: 35px;
+  margin-top: 15px;
+  margin-right: 15px;
+  border-radius: 100px;
+}
+
+.user-container {
+  height: 45px;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+
+.user-image {
+  width: 34px;
+  height: 34px;
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.username {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 13px;
+  line-height: 16px;
+  margin-left: 10px;
+  margin-top: 11px;
+}
+
+.location {
+  margin-left: 10px;
+  margin-top: 2px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.post {
+  width: 100%;
+  height: 375px;
+}
+
+.buttons {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.like, .comment, .dm {
+  margin: 0 5px 0 10px;
+  cursor: pointer;
+}
+
+.likes {
+  font-size: 13px;
+  margin-left: 20px;
+  margin-top: 0px;
+  cursor: pointer;
+}
+
+.user-comment {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+span {
+  font-weight: 400;
+  margin-left: 5px;
+}
